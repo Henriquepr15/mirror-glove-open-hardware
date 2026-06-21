@@ -1,15 +1,15 @@
-Item,Component,Specification,Quantity,Notes
-01,Fabric glove,Base wearable glove,1,Physical support for the five flexible sensors
-02,Flexible resistive sensor,Flex sensor for finger bending measurement,5,One sensor per finger
-03,ESP32-C6 Super Mini,ESP32-C6 development board,1,Main acquisition microcontroller
-04,Mirror Glove printed circuit board,Custom PCB,1,Main board for signal conditioning and sensor connections
-05,SMD resistor,68 kΩ,5,Voltage divider resistor for each flex sensor
-06,SMD capacitor,10 µF,5,Passive RC low-pass filtering for sensor channels
-07,SMD capacitor,100 nF,2,Decoupling or auxiliary filtering
-08,SMD capacitor,4.7 µF,2,Decoupling or auxiliary filtering
-09,SMD LED,0603 package,5,Optional visual indication/debugging
-10,Sensor connector,1x02 connector,5,Sensor-to-PCB connection
-11,Pin connector,1x10 connector,2,Board interconnection
-12,JST connector,1x03 connector,1,Power or peripheral connection
-13,Wires or connection cables,Flexible wires,As needed,Used to connect sensors and PCB
-14,USB cable,Compatible with ESP32 board,1,Used for programming and power
+"Item","Component","Specification","Quantity","Notes"
+"01","Fabric glove","Base wearable glove","1","Physical support for the five flexible sensors"
+"02","Flexible resistive sensor","Flex sensor for finger bending measurement","5","One sensor per finger"
+"03","ESP32-C6 Super Mini","ESP32-C6 development board","1","Main acquisition microcontroller"
+"04","Mirror Glove printed circuit board","Custom PCB","1","Main board for signal conditioning and sensor connections"
+"05","SMD resistor","68 kΩ","5","Voltage divider resistor for each flex sensor"
+"06","SMD capacitor","10 µF","5","Passive RC low-pass filtering for sensor channels"
+"07","SMD capacitor","100 nF","2","Decoupling or auxiliary filtering"
+"08","SMD capacitor","4.7 µF","2","Decoupling or auxiliary filtering"
+"09","SMD LED","0603 package","5","Optional visual indication or debugging"
+"10","Sensor connector","1x02 connector","5","Sensor-to-PCB connection"
+"11","Pin connector","1x10 connector","2","Board interconnection"
+"12","JST connector","1x03 connector","1","Power or peripheral connection"
+"13","Wires or connection cables","Flexible wires","As needed","Used to connect sensors and PCB"
+"14","USB cable","Compatible with ESP32 board","1","Used for programming and power"
