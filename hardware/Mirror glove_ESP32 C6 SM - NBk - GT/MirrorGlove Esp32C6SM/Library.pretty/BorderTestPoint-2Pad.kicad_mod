@@ -1,0 +1,138 @@
+(footprint "BorderTestPoint-2Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "12123438-529e-4d20-9de6-73bc344e8f83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BorderTestPoint-2Pad"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "40ddc1b2-dddc-491b-8542-80f7c869fca3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e9e2703-48c9-461c-a7f2-6ee24bcfced3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7474d505-88c9-4edf-afec-41afe3620555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32977491-4a70-466f-9b68-e508cc681ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at -0.687501 -1.524999)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "38180dfd-49a2-4591-ace4-3bbfac6a50e7")
+	)
+	(pad "1" smd oval
+		(at 0 -1.65)
+		(size 2.624998 1.749998)
+		(layers "*.Paste" "F.Cu")
+		(uuid "296852e2-6c68-4490-ace5-ea9f23f25a6c")
+	)
+	(pad "1" thru_hole custom
+		(at 0.812499 -1.524999)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "be4181d7-9088-41a0-b4bc-21830b438b28")
+	)
+	(pad "2" thru_hole custom
+		(at -0.687501 0.299999)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "2c44b5a8-47ad-4018-ab8c-2f4a5a14410f")
+	)
+	(pad "2" smd oval
+		(at 0 0.425)
+		(size 2.624998 1.749998)
+		(layers "*.Paste" "F.Cu")
+		(uuid "3505e9cb-494c-403f-9dcb-79c8c1dacae8")
+	)
+	(pad "2" thru_hole custom
+		(at 0.812499 0.299999)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "66844709-6d80-499f-b275-4c28c99577f8")
+	)
+	(embedded_fonts no)
+)
