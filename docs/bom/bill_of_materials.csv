@@ -1,0 +1,41 @@
+Item,Component,Specification,Unit,Quantity,Category,Used in final prototype,Notes
+01,Fabric glove,Base wearable glove,pcs,1,Wearable structure,Yes,Used as the physical support for the flexible sensors
+02,Flexible resistive sensor,Flex sensor for finger bending measurement,pcs,5,Sensor,Yes,One sensor positioned on each finger
+03,ESP32-C6 Super Mini,ESP32-C6 development board,pcs,2,Microcontroller,Yes,One board for acquisition and one optional board for receiver/actuator tests
+04,Mirror Glove printed circuit board,Custom PCB,pcs,2,PCB,Yes,Custom board developed for the Mirror Glove prototype
+05,SMD resistor,68 kΩ,pcs,5,Passive component,Yes,Used in the voltage divider circuits for the flex sensors
+06,SMD capacitor,10 µF,pcs,7,Passive component,Yes,Used mainly for passive RC low-pass filtering and signal stabilization
+07,SMD resistor,300 Ω,pcs,4,Passive component,Yes,Used in auxiliary circuit sections
+08,SMD resistor,10 kΩ,pcs,1,Passive component,Yes,Used in auxiliary circuit sections
+09,SMD resistor,5.1 kΩ,pcs,3,Passive component,Yes,Used in auxiliary circuit sections
+10,SMD resistor,1 kΩ,pcs,3,Passive component,Yes,Used in auxiliary circuit sections
+11,SMD resistor,100 kΩ,pcs,1,Passive component,Yes,Used in auxiliary circuit sections
+12,SMD resistor,13.7 kΩ,pcs,1,Passive component,Yes,Used in auxiliary circuit sections
+13,SMD capacitor,100 nF,pcs,2,Passive component,Yes,Used for decoupling or auxiliary filtering
+14,SMD capacitor,4.7 µF,pcs,2,Passive component,Yes,Used for decoupling or auxiliary filtering
+15,SMD LED,0603 package,pcs,5,Indicator,Yes,Used as visual indicators or debugging elements
+16,Sensor connector,1x02 connector,pcs,5,Connector,Yes,Used to connect the flexible sensors to the PCB
+17,Pin connector,1x10 connector,pcs,2,Connector,Yes,Used for board interconnection
+18,Pin connector,1x02 connector,pcs,1,Connector,Yes,Used for auxiliary connection
+19,JST connector,1x03 connector,pcs,1,Connector,Yes,Used for power or peripheral connection
+20,Test point,PCB test point,pcs,1,Testing interface,Yes,Used for measurement or debugging
+21,Inductor,3.3 µH,pcs,1,Power component,Yes,Associated with the power regulation circuit in specific PCB versions
+22,Integrated circuit,LMR51430YFDDCR,pcs,1,Power component,Yes,Used in the buck converter section in PCB versions that include power regulation
+23,Wires or connection cables,Flexible wires or jumper cables,m,10,Wiring,Yes,Used for sensor and prototype connections
+24,Soldering iron,Electronic soldering tool,pcs,1,Assembly tool,No,Used for PCB assembly
+25,Solder wire,Electronic solder wire,pcs,1,Assembly tool,No,Used for PCB assembly
+26,Digital multimeter,General-purpose digital multimeter,pcs,1,Testing tool,No,Used for continuity, voltage, and resistance measurements
+27,Power supply or USB port,USB or external power source,pcs,1,Power/testing tool,No,Used to power the prototype during tests
+28,USB cable,Compatible with the ESP32 board,pcs,2,Programming/power,No,Used for firmware upload and board power
+29,Computer,Computer for firmware and data analysis,pcs,1,Development tool,No,Used for programming, data acquisition, and analysis
+30,Arduino IDE or PlatformIO,Firmware development environment,pcs,1,Software,No,Used to develop and upload ESP32 firmware
+31,KiCad,PCB design software,unit,1,Software,No,Used for schematic and PCB design
+32,Python,Python programming environment,unit,1,Software,No,Used for signal analysis and machine learning experiments
+33,Arduino Uno,Arduino development board,unit,2,Development/test board,No,Used in preliminary bench tests
+34,Breadboard,Protoboard for preliminary tests,pcs,2,Development tool,No,Used for initial sensor and circuit validation
+35,PTH capacitors,Various through-hole capacitors for tests,pcs,5,Development/test component,No,Used in preliminary filtering and validation tests
+36,PTH resistors,Various through-hole resistors for tests,pcs,5,Development/test component,No,Used in preliminary voltage divider and validation tests
+37,Adjustable bench power supply,Adjustable laboratory power supply,pcs,1,Testing tool,No,Used for controlled power tests
+38,Electrical tape,Insulating tape,roll,1,Assembly support,No,Used for insulation and temporary fixation
+39,Servomotor,Hobby servo motor for actuator tests,pcs,5,Actuator,Optional,Used for experimental motion mirroring tests
+
